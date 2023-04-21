@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClubinhoDoBebe", "ClubinhoDoBebe.csproj", "{C3205F30-F59A-43B1-B95F-8B0C4B5FEFAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClubinhoDoBebe.Domain", "Core\Domain\ClubinhoDoBebe.Domain\ClubinhoDoBebe.Domain.csproj", "{5BB34C96-FA73-4145-9BC4-1CFE422995B9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{E42121DA-80CA-4C7B-A6AB-E8B5FCC95ED7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{B3B94537-933C-4ADC-99B4-A6D9255C40A5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{CB443C9D-3005-4BCA-85E5-BB197A4BE040}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C3205F30-F59A-43B1-B95F-8B0C4B5FEFAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3205F30-F59A-43B1-B95F-8B0C4B5FEFAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3205F30-F59A-43B1-B95F-8B0C4B5FEFAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3205F30-F59A-43B1-B95F-8B0C4B5FEFAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BB34C96-FA73-4145-9BC4-1CFE422995B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BB34C96-FA73-4145-9BC4-1CFE422995B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BB34C96-FA73-4145-9BC4-1CFE422995B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BB34C96-FA73-4145-9BC4-1CFE422995B9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C3205F30-F59A-43B1-B95F-8B0C4B5FEFAA} = {CB443C9D-3005-4BCA-85E5-BB197A4BE040}
+		{5BB34C96-FA73-4145-9BC4-1CFE422995B9} = {B3B94537-933C-4ADC-99B4-A6D9255C40A5}
+		{B3B94537-933C-4ADC-99B4-A6D9255C40A5} = {E42121DA-80CA-4C7B-A6AB-E8B5FCC95ED7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {40C9FA0C-F733-4784-830D-E875B28B6B10}
+	EndGlobalSection
+EndGlobal
