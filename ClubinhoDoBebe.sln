@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClubinhoDoBebe", "ClubinhoDoBebe.csproj", "{C3205F30-F59A-43B1-B95F-8B0C4B5FEFAA}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClubinhoDoBebe.Domain", "Core\Domain\ClubinhoDoBebe.Domain\ClubinhoDoBebe.Domain.csproj", "{5BB34C96-FA73-4145-9BC4-1CFE422995B9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{E42121DA-80CA-4C7B-A6AB-E8B5FCC95ED7}"
@@ -13,7 +11,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{B3B945
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{CB443C9D-3005-4BCA-85E5-BB197A4BE040}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClubinhoDoBebe.Persistence", "Infrastructure\ClubinhoDoBebe.Persistence\ClubinhoDoBebe.Persistence.csproj", "{22E10B7E-1DE0-403D-8755-AF8CAC4A5A7D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClubinhoDoBebe.Persistence", "Infrastructure\ClubinhoDoBebe.Persistence\ClubinhoDoBebe.Persistence.csproj", "{22E10B7E-1DE0-403D-8755-AF8CAC4A5A7D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,10 +19,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C3205F30-F59A-43B1-B95F-8B0C4B5FEFAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C3205F30-F59A-43B1-B95F-8B0C4B5FEFAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C3205F30-F59A-43B1-B95F-8B0C4B5FEFAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C3205F30-F59A-43B1-B95F-8B0C4B5FEFAA}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5BB34C96-FA73-4145-9BC4-1CFE422995B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5BB34C96-FA73-4145-9BC4-1CFE422995B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5BB34C96-FA73-4145-9BC4-1CFE422995B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -38,7 +32,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{C3205F30-F59A-43B1-B95F-8B0C4B5FEFAA} = {CB443C9D-3005-4BCA-85E5-BB197A4BE040}
 		{5BB34C96-FA73-4145-9BC4-1CFE422995B9} = {B3B94537-933C-4ADC-99B4-A6D9255C40A5}
 		{B3B94537-933C-4ADC-99B4-A6D9255C40A5} = {E42121DA-80CA-4C7B-A6AB-E8B5FCC95ED7}
 	EndGlobalSection

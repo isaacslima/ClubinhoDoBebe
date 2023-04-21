@@ -2,9 +2,12 @@
 
 namespace ClubinhoDoBebe.Domain.Orders;
 
-
 public class LineItem
 {
+    internal LineItem()
+    {
+    }
+
     internal LineItem(LineItemId id, OrderId orderId, ProductId productId, Money price)
     {
         Id = id;
