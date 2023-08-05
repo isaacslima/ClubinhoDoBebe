@@ -2,11 +2,8 @@
 
 namespace ClubinhoDoBebe.Controllers
 {
-    public class AuthController : Controller
+    public class AuthController : ControllerBase
     {
-        public IActionResult Index()
-        {
-            return View();
-        }
+        
     }
 }
