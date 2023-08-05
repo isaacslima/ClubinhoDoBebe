@@ -64,3 +64,8 @@ dotnet run --project Presentation\ClubinhoDoBebe.csproj
 
 3. Open your web browser and go to `http://localhost:44417` to access the application.
 
+
+## Cognito
+
+![image](https://github.com/isaacslima/ClubinhoDoBebe/assets/11709857/51f5a43d-0904-4acc-9cdf-7210fab35def)
+
