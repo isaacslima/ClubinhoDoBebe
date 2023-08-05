@@ -13,6 +13,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentatio
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClubinhoDoBebe.Persistence", "Infrastructure\ClubinhoDoBebe.Persistence\ClubinhoDoBebe.Persistence.csproj", "{22E10B7E-1DE0-403D-8755-AF8CAC4A5A7D}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClubinhoDoBebe", "Presentation\ClubinhoDoBebe.csproj", "{68AA10C5-8E93-4512-A8CD-4159B324D753}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{22E10B7E-1DE0-403D-8755-AF8CAC4A5A7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{22E10B7E-1DE0-403D-8755-AF8CAC4A5A7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{22E10B7E-1DE0-403D-8755-AF8CAC4A5A7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68AA10C5-8E93-4512-A8CD-4159B324D753}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68AA10C5-8E93-4512-A8CD-4159B324D753}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68AA10C5-8E93-4512-A8CD-4159B324D753}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68AA10C5-8E93-4512-A8CD-4159B324D753}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -34,6 +40,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{5BB34C96-FA73-4145-9BC4-1CFE422995B9} = {B3B94537-933C-4ADC-99B4-A6D9255C40A5}
 		{B3B94537-933C-4ADC-99B4-A6D9255C40A5} = {E42121DA-80CA-4C7B-A6AB-E8B5FCC95ED7}
+		{68AA10C5-8E93-4512-A8CD-4159B324D753} = {CB443C9D-3005-4BCA-85E5-BB197A4BE040}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {40C9FA0C-F733-4784-830D-E875B28B6B10}
