@@ -23,6 +23,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Core\Application\ClubinhoDoBebe.Application\ClubinhoDoBebe.Application.csproj" />
+    <ProjectReference Include="..\Infrastructure\ClubinhoDoBebe.Infrastructure\ClubinhoDoBebe.Infrastructure.csproj" />
   </ItemGroup>
 
     <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">
