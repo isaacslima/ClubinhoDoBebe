@@ -1,6 +1,7 @@
 ﻿using Amazon;
 using Amazon.CognitoIdentityProvider;
 using Amazon.CognitoIdentityProvider.Model;
+using ClubinhoDoBebe.Application.Common.Interface.Services;
 using ClubinhoDoBebe.Application.Common.Models.Request;
 using ClubinhoDoBebe.Application.Common.Models.Response;
 using Microsoft.Extensions.Options;
@@ -10,7 +11,7 @@ using System.Text;
 
 namespace ClubinhoDoBebe.Infrastructure.Authentication;
 
-public class CognitoService
+public class CognitoService : ICognitoService
 {
     private readonly CognitoSettings _cognitoSettings;
 
