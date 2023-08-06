@@ -19,21 +19,11 @@ public class CognitoService
         _cognitoSettings = cognitoSettings.Value;
     }
 
-    public async Task<AuthResponse> AuthenticateAsync(LoginRequest loginRequest, bool authByEmail)
+    public async Task<AuthResponse> AuthenticateAsync(LoginRequest loginRequest)
     {
-        var username = authByEmail ? loginRequest.email : loginRequest.phone;
-        return await AuthenticateUserAsync(loginRequest, username);
-    }
-
-    private async Task<AuthResponse> AuthenticateUserAsync(LoginRequest loginRequest, string username)
-    {
-        if(string.IsNullOrEmpty(username))
-        {
-            //Todo throw Exception error
-            return null;
-        }
-
         AmazonCognitoIdentityProviderClient provider = GetAmazonCognitoIdentityProvider();
+
+        var username = loginRequest.username;
 
         var secretHash = CalculateSecretHash(username);
 
