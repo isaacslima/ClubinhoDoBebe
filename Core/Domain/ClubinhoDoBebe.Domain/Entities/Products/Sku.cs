@@ -1,6 +1,5 @@
-﻿namespace ClubinhoDoBebe.Domain.Products;
+﻿namespace ClubinhoDoBebe.Domain.Entities.Products;
 
-//Stock Keeping Unit
 public record Sku
 {
 

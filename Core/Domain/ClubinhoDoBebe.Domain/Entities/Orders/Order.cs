@@ -1,19 +1,15 @@
-﻿using ClubinhoDoBebe.Domain.Customers;
-using ClubinhoDoBebe.Domain.Products;
+﻿using ClubinhoDoBebe.Domain.Entities.Customers;
+using ClubinhoDoBebe.Domain.Entities.Products;
 
-namespace ClubinhoDoBebe.Domain.Orders;
+namespace ClubinhoDoBebe.Domain.Entities.Orders;
 
 public class Order
 {
     private readonly HashSet<LineItem> _lineItems = new();
 
-    private Order()
-    { 
-    }
+    public OrderId Id { get; private set; } = null!;
 
-    public OrderId Id { get; private set; }
-
-    public CustomerId CustomerId { get; private set; }
+    public CustomerId CustomerId { get; private set; } = null!;
 
     public IReadOnlyList<LineItem> LineItems => _lineItems.ToList();
 
@@ -33,7 +29,7 @@ public class Order
         var lineItem = new LineItem(
             new LineItemId(Guid.NewGuid()),
             Id,
-            productId, 
+            productId,
             price);
 
         _lineItems.Add(lineItem);

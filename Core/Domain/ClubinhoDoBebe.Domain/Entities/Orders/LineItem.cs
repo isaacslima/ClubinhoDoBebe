@@ -1,13 +1,9 @@
-﻿using ClubinhoDoBebe.Domain.Products;
+﻿using ClubinhoDoBebe.Domain.Entities.Products;
 
-namespace ClubinhoDoBebe.Domain.Orders;
+namespace ClubinhoDoBebe.Domain.Entities.Orders;
 
 public class LineItem
 {
-    internal LineItem()
-    {
-    }
-
     internal LineItem(LineItemId id, OrderId orderId, ProductId productId, Money price)
     {
         Id = id;
