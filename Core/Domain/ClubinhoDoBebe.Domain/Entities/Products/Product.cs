@@ -1,4 +1,6 @@
-﻿namespace ClubinhoDoBebe.Domain.Entities.Products;
+﻿using ClubinhoDoBebe.Domain.Entities.Pictures.Products;
+
+namespace ClubinhoDoBebe.Domain.Entities.Products;
 
 public class Product
 {
