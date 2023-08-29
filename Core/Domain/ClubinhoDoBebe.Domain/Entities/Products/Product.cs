@@ -2,21 +2,21 @@
 
 namespace ClubinhoDoBebe.Domain.Entities.Products;
 
-public class Product
+public class Product : BaseClass
 {
-    public ProductId Id { get; private set; } = null!;
+    public Guid Id { get; private set; }
 
     public string Name { get; private set; } = string.Empty;
 
-    public Money Price { get; private set; } = null!;
+    public decimal Price { get; private set; }
 
-    public Sku? Sku { get; private set; }
+    public string Code { get; private set; } = string.Empty;
 
-    public Product(string name, Money price, Sku? sku)
+    public Product(string name, decimal price, string code)
     {
-        Id = new ProductId(Guid.NewGuid());
+        Id = Guid.NewGuid();
         Name = name;
         Price = price;
-        Sku = sku;
+        Code = code;
     }
 }

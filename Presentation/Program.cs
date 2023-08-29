@@ -1,5 +1,7 @@
 using ClubinhoDoBebe.Application;
 using ClubinhoDoBebe.Infrastructure;
+using ClubinhoDoBebe.Infrastructure.Data;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -25,5 +27,11 @@ app.MapControllerRoute(
     pattern: "{controller}/{action=Index}/{id?}");
 
 app.MapFallbackToFile("index.html");
+
+using (var scope = app.Services.CreateScope())
+{
+    //var db = scope.ServiceProvider.GetRequiredService<DataBaseContext>();
+    //db.Database.Migrate();
+}
 
 app.Run();
