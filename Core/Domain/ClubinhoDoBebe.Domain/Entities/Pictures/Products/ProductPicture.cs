@@ -4,6 +4,6 @@ namespace ClubinhoDoBebe.Domain.Entities.Pictures.Products;
 
 public class ProductPicture
 {
-    public ProductId productId { get; set; } = null!;
+    public Guid productId { get; set; }
     public string Picture { get; set; } = null!;
 }

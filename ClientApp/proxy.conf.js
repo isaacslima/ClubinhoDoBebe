@@ -7,6 +7,7 @@ const PROXY_CONFIG = [
   {
     context: [
       "/clubinho",
+      "/api/product"
    ],
     target: target,
     secure: false,
